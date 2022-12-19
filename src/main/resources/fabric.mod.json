@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "lemchacks",
+  "version": "0.0.1",
+
+  "name": "LeMCHacks",
+  "description": "hacks lol",
+  "authors": [
+    "LLethul"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lemcHacks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "lemcHacks.Client"
+    ]
+  },
+  "mixins": [
+    "lemcHacks.mixins.json"
+  ],
+
+  "depends": {},
+  "suggests": {}
+}

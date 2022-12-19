@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lemcHacks.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "AbstractBlockStateMixin",
+    "AccessorFrustum",
+    "AccessorWorldRenderer",
+    "BackgroundRendererMixin",
+    "BlockMixin",
+    "BlockOcclusionCacheMixin",
+    "CameraMixin",
+    "CCMixin",
+    "ChatHudMixin",
+    "ClientConnectionMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "DimensionEffectsMixin",
+    "GameOverlayRenderer",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "KBoardMixin",
+    "MCCMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "PlayerMoveC2SPacketMixin",
+    "PlayerMoveC2SPacketMixin2",
+    "PlayerMoveC2SPacketMixin3",
+    "PlayerMoveC2SPacketMixin4"
+  ]
+}
